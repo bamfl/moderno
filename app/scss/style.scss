@@ -1,0 +1,21 @@
+html {
+	box-sizing: border-box;
+	font-size: 20px;
+	background-color: yellow;
+	color: #000;
+}
+
+.title {
+	font-size: 500px;
+}
+.box {
+	font-size: 12px;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+}
+
+.text {
+	color: #000;
+	color: green;
+}
