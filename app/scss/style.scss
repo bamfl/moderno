@@ -395,3 +395,80 @@
 	}
 }
 
+//============================================================================================================================================================================
+.advantages {
+	padding: 100px 0;
+	background-color: $bg;
+	
+
+	&__title {
+		color: #fff;
+		margin: 0px 0px 60px 0px;
+	}
+
+	&__inner {
+		display: flex;
+		margin: 0 -25px;
+	}
+
+	&__item {
+		flex: 0 1 33.333%;
+		padding: 0 25px;
+	}
+}
+.item-advantages {
+	text-align: center;
+	color: #fff;
+
+	&__image {
+		margin: 0 auto 30px;
+		border-radius: 50%;
+		height: 120px;
+		width: 120px;
+		background-color: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		svg {
+			width: 90px;
+			height: 80px;
+		}
+		&_heart {
+			svg {
+				margin: 10px 0px 0px 0px;
+				width: 90px;
+				height: 90px;
+			}
+		}
+	}
+
+	&__title {
+		margin: 0px 0px 30px 0px;
+		font-size: 24px;
+		font-weight: 500;
+		&:hover{
+			color: $green;
+		}
+	}
+
+	&__text {
+		color: #b0bec5;
+	}
+
+	&:hover{
+		.item-advantages__image {
+			background-color: $green;
+			transition: all 0.5s;
+			svg {
+				g {
+					fill: #fff;
+				}
+			}	
+		}
+	
+		.item-advantages__title {
+			color: $green;
+			transition: all 0.5s;
+		}
+	}
+}
