@@ -472,3 +472,42 @@
 		}
 	}
 }
+//=========================================================================================================================================================================================
+.author {
+	min-height: 750px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__box {
+		width: 660px;
+		height: 220px;
+		background-color: $green;
+		padding: 70px;
+		display: flex;
+		font-family: 'Roboto-Regular', sans-serif;
+		font-weight: 400;
+		align-items: center;
+	}
+
+	&__title {	
+		font-size: 30px;
+		line-height: 36px;
+		color: #fff;
+		max-width: 270px;
+		
+		span {
+			font-weight: 700;
+		}
+	}
+
+	&__link {
+		display: inline-block;
+		font-size: 18px;
+		color: $bg;
+		margin: 0px 0px 0px 50px;
+		background-color: #fff;
+		line-height: 60px;
+		padding: 0 25px;
+	}
+}
