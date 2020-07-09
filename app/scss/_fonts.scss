@@ -1,11 +1,65 @@
 @font-face {
-	font-family: 'Roboto-Regular', sans-serif;
+	font-family: "Roboto-Regular", sans-serif;
 	font-display: swap;
-	src:
-		url("../fonts/Roboto-Regular.woff2") format("woff2"),
-		url("../fonts/Roboto-Regular.woff") format("woff");
+	src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@font-face {
+	font-family: "Lato-Semibold", sans-serif;
+	font-display: swap;
+	src: url("../fonts/Lato-Semibold.woff2") format("woff2"), url("../fonts/Lato-Semibold.woff") format("woff");
+
+	font-weight: 600;
+	font-style: normal;
+}
+
+// font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
+// font-family: 'Raleway', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+
+@font-face {
+	font-family: "icomoon";
+	src: url("../fonts/icomoon.eot?nyuiw8");
+	src: url("../fonts/icomoon.eot?nyuiw8#iefix") format("embedded-opentype"),
+		url("../fonts/icomoon.ttf?nyuiw8") format("truetype"), url("../fonts/icomoon.woff?nyuiw8") format("woff"),
+		url("../fonts/icomoon.svg?nyuiw8#icomoon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	
+	font-family: "icomoon" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map-marker:before {
+	content: "\f041";
+}
+.icon-shopping-cart:before {
+	content: "\f07a";
+}
+.icon-phone:before {
+	content: "\f095";
+}
+.icon-angle-right:before {
+	content: "\f105";
+}
+.icon-location-arrow:before {
+	content: "\f124";
+}
