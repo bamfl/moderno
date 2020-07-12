@@ -23,10 +23,10 @@
 
 @font-face {
 	font-family: "icomoon";
-	src: url("../fonts/icomoon.eot?nyuiw8");
-	src: url("../fonts/icomoon.eot?nyuiw8#iefix") format("embedded-opentype"),
-		url("../fonts/icomoon.ttf?nyuiw8") format("truetype"), url("../fonts/icomoon.woff?nyuiw8") format("woff"),
-		url("../fonts/icomoon.svg?nyuiw8#icomoon") format("svg");
+	src: url("../fonts/icomoon.eot?j5rlsx");
+	src: url("../fonts/icomoon.eot?j5rlsx#iefix") format("embedded-opentype"),
+		url("../fonts/icomoon.ttf?j5rlsx") format("truetype"), url("../fonts/icomoon.woff?j5rlsx") format("woff"),
+		url("../fonts/icomoon.svg?j5rlsx#icomoon") format("svg");
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
@@ -43,11 +43,19 @@
 	text-transform: none;
 	line-height: 1;
 
-	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-search:before {
+	content: "\f002";
+}
+.icon-th-large:before {
+	content: "\f009";
+}
+.icon-th-list:before {
+	content: "\f00b";
+}
 .icon-map-marker:before {
 	content: "\f041";
 }
@@ -57,9 +65,21 @@
 .icon-phone:before {
 	content: "\f095";
 }
+.icon-sort:before {
+	content: "\f0dc";
+}
+.icon-unsorted:before {
+	content: "\f0dc";
+}
 .icon-angle-right:before {
 	content: "\f105";
 }
 .icon-location-arrow:before {
 	content: "\f124";
+}
+.icon-sort-amount-asc:before {
+	content: "\f160";
+}
+.icon-sort-amount-desc:before {
+	content: "\f161";
 }
