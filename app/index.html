@@ -24,7 +24,7 @@
 						</div>
 						<div class="header__box">
 
-							<div class="header__icons login--on">
+							<div class="header__icons">		
 
 								<div class="notification__box">
 									<a class="icon-bell-o header__notification header__circle" href="#"><span>8</span></a>
@@ -104,8 +104,7 @@
 									</div>
 								</div>
 
-
-								<div class="basket__box">
+								<div class="basket__box login--off">
 									<a class="icon-shopping-cart header__basket header__circle"
 										href="#"><span>8</span></a>
 
@@ -167,14 +166,15 @@
 									<li><a class="menu-user__link" href="#">Upload Item</a></li>
 									<li><a class="menu-user__link" href="#">Statement</a></li>
 									<li><a class="menu-user__link" href="#">Withdraws</a></li>
+									<li class="logout-list"><a class="menu-user__link" href="#">LogOut</a></li>
 								</ul>
 							</div>
 						</div>
 
-						<a class="header__btn login login--off" href="#">Login</a>
-						<a class="header__btn register login--off" href="#">Register</a>
+						<a class="header__btn login login--on" href="#">Login</a>
+						<a class="header__btn register login--on" href="#">Register</a>
 
-						<a class="header__btn logout login--on" href="#">LogOut</a>
+						<a class="header__btn logout" href="#">LogOut</a>
 					</div>
 				</div>
 			</div>
@@ -183,18 +183,26 @@
 			<div class="header__menu">
 				<div class='container'>
 					<nav class="menu">
-						<ul class="menu__list">
-							<li><a class="menu__link" href="#">Home</a></li>
-							<li><a class="menu__link" href="#">About</a></li>
-							<li><a class="menu__link" href="#">WordPress</a></li>
-							<li><a class="menu__link" href="#">Joomla</a></li>
-							<li><a class="menu__link" href="#">PSD</a></li>
-							<li><a class="menu__link" href="#">Plugins</a></li>
-							<li><a class="menu__link" href="#">Components</a></li>
-							<li><a class="menu__link" href="#">Pages</a></li>
-							<li><a class="menu__link" href="#">Contact</a></li>
-							<li><a class="menu__link" href="#">Help</a></li>
-						</ul>
+						<div class="menu__icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+
+						<div class="menu__body">
+							<ul class="menu__list">
+								<li><a class="menu__link" href="#">Home</a></li>
+								<li><a class="menu__link" href="#">About</a></li>
+								<li><a class="menu__link" href="#">WordPress</a></li>
+								<li><a class="menu__link" href="#">Joomla</a></li>
+								<li><a class="menu__link" href="#">PSD</a></li>
+								<li><a class="menu__link" href="#">Plugins</a></li>
+								<li><a class="menu__link" href="#">Components</a></li>
+								<li><a class="menu__link" href="#">Pages</a></li>
+								<li><a class="menu__link" href="#">Contact</a></li>
+								<li><a class="menu__link" href="#">Help</a></li>
+							</ul>
+						</div>
 					</nav>
 				</div>
 			</div>
@@ -1266,14 +1274,13 @@
 		<footer class="footer">
 			<div class='container'>
 				<div class="footer__inner">
-					<div class="footer__item item-footer">
+					<div class="footer__item item-footer item-footer__addressbox">
 						<div class="item-footer__title">
 							About our company
 						</div>
 						<div class="item-footer__text">
-							Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit
-							amet
-							urna iat.Praesent vel rutrum purus.
+							Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digni Suspen disse.Fusce sit amet
+							urna iat. Praesent vel rutrum purus.
 						</div>
 						<a href="#" class="item-footer__address">
 							PO Box 16122 Collins Street West
@@ -1297,7 +1304,7 @@
 						</ul>
 					</div>
 
-					<div class="footer__item item-footer">
+					<div class="footer__item item-footer item-footer__help">
 						<div class="item-footer__title">
 							Need help?
 						</div>
@@ -1310,11 +1317,11 @@
 						</ul>
 					</div>
 
-					<div class="footer__item item-footer">
+					<div class="footer__item item-footer item-footer__socials">
 						<div class="item-footer__title">
 							Follow us on
 						</div>
-						<div class="item-footer__socials">
+						<div class="item-footer__icons">
 							<a href="#" class="item-footer__icon"><img src="images/footer/01.png" alt=""></a>
 							<a href="#" class="item-footer__icon"><img src="images/footer/02.png" alt=""></a>
 							<a href="#" class="item-footer__icon"><img src="images/footer/03.png" alt=""></a>
