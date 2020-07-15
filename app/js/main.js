@@ -68,6 +68,33 @@ $(function(){
 		$('.basket__box').toggleClass('active'),
 		$('body').toggleClass('lock')
 	})
+
+
+
+	$('.tab__title_1').on('click', function(){
+		$('.tab__title_1').toggleClass('active'),
+		$('.tab__inner_1').toggleClass('active'),
+		$('.tab__title_2,.tab__title_3,.tab__title_4').removeClass('active'),
+		$('.tab__inner_2,.tab__inner_3,.tab__inner_4').removeClass('active')
+	})
+	$('.tab__title_2').on('click', function(){
+		$('.tab__title_2').toggleClass('active'),
+		$('.tab__inner_2').toggleClass('active'),
+		$('.tab__title_1,.tab__title_3,.tab__title_4').removeClass('active'),
+		$('.tab__inner_1,.tab__inner_3,.tab__inner_4').removeClass('active')
+	})
+	$('.tab__title_3').on('click', function(){
+		$('.tab__title_3').toggleClass('active'),
+		$('.tab__inner_3').toggleClass('active'),
+		$('.tab__title_1,.tab__title_2,.tab__title_4').removeClass('active'),
+		$('.tab__inner_1,.tab__inner_2,.tab__inner_4').removeClass('active')
+	})
+	$('.tab__title_4').on('click', function(){
+		$('.tab__title_4').toggleClass('active'),
+		$('.tab__inner_4').toggleClass('active'),
+		$('.tab__title_1,.tab__title_2,.tab__title_3').removeClass('active'),
+		$('.tab__inner_1,.tab__inner_2,.tab__inner_3').removeClass('active')
+	})
 	
 	var mixer = mixitup('.products__box');	
 
