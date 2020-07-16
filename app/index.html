@@ -171,7 +171,7 @@
 							</div>
 						</div>
 
-						<a class="header__btn login login--on" href="#">Login</a>
+						<a data-fancybox data-src="#loginform" class="header__btn login login--on btn btn-primary" href="javascript:;">Login</a>
 						<a class="header__btn register login--on" href="#">Register</a>
 
 						<a class="header__btn logout" href="#">LogOut</a>
@@ -1348,6 +1348,29 @@
 				</div>
 			</div>
 		</footer>
+	</div>
+
+	<div id="loginform" class="loginform">
+		<div class="loginform__title">
+			Login
+		</div>
+
+		<form action="#" method="POST" class="loginform__form" enctype="multipart/form-data" name="loginform__form">
+			<label class="label__name">
+				<input type="text" placeholder="Name" name="loginform__name" class="loginform__name" required>
+			</label>
+
+			<label class="label__password">
+				<input type="text" placeholder="Password" name="loginform__password" class="loginform__password" required>
+			</label>
+
+			<div class="loginform__inner">
+				<button type="submit" class="loginform__btn">Submit</button>
+				<a class="loginform__create" href="#">Creat An Account?</a>
+			</div>
+		</form>
+
+		<a class="loginform__link" href="#">Lost Password?</a>
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
