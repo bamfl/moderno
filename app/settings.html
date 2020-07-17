@@ -24,11 +24,10 @@
 						</div>
 						<div class="header__box">
 
-							<div class="header__icons">
+							<div class="header__icons">		
 
 								<div class="notification__box login--on">
-									<a class="icon-bell-o header__notification header__circle"
-										href="#"><span>8</span></a>
+									<a class="icon-bell-o header__notification header__circle" href="#"><span>8</span></a>
 
 									<div class="notification__menu menu-notification">
 										<a href="#" class="menu-notification__item">
@@ -233,71 +232,159 @@
 					<div class="breadcrumbs__inner">
 						<ul class="breadcrumbs__list">
 							<li><a href="#">Home</a></li>
-							<li><span>Contact Us</span></li>
+							<li><span>Settings</span></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 
-			<section class="contact">
+			<section class="settings">
 				<div class='container'>
-					<div class="contact__title">
-						Contact With Us
-					</div>
-					<div class="contact__inner">
-						
-						<div class="contact__map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.745534468559!2d144.95050796596982!3d-3781942894214197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40e5d9c9f7c28623!2sMarket%20Skope!5e0!3m2!1sru!2sru!4v1594973883524!5m2!1sru!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<div class="settings__inner">
+						<div class="settings__tabs">
+							<div class="settings__tab settings__tab_info active">Personal Information</div>
+							<div class="settings__tab settings__tab_profile">Profile</div>
+							<div class="settings__tab settings__tab_badges">Badges</div>
+							<div class="settings__tab settings__tab_email">E-mail Settings</div>
+							<div class="settings__tab settings__tab_social">Social Network</div>
 						</div>
-						
-						<div class="contact__row">
-							<div class="contact__column contact__column_min">
-								<div class="contact__address">
-									
-									<a class="contact__subtitle" href="https://goo.gl/maps/zezRtsWqdNHFE4wj7" target="_blank">Our Office Address</a>
-									
-									<a href="https://goo.gl/maps/zezRtsWqdNHFE4wj7" target="_blank" class="contact__link">
-										PO Box 16122 Collins Street West
-										Victoria 8007 Australia
-									</a>
-								</div>
 
-								<div class="contact__phone">									
-									<a class="contact__subtitle contact__subtitle_phone" href="tel:61383766284">Phone</a>
-									
-									<a href="tel:61383766284" class="contact__link">
-										+61 3 8376 6284
-									</a>
+						<div class="settings__box">
+							<div class="settings__item settings__item_info active">
+								<div class="settings__title">
+									Personal Information
 								</div>
-
-								<div class="contact__email">									
-									<a class="contact__subtitle contact__subtitle_email" href="mailto:info@foxtar.com">E-mail</a>
-									
-									<a href="mailto:info@foxtar.com" class="contact__link">
-										info@foxtar.com
-									</a>
-								</div>
+								<form action="#" method="POST" class="settings__form settings__form_info" enctype="multipart/form-data" name="info">
+	
+									<label>First name<input type="text" name="name"  class="settings__input"></label>
+									<label>Last name<input type="text" name="lastname"  class="settings__input"></label>
+									<label>Company name<input type="text" name="company"  class="settings__input"></label>
+									<label>
+										Country
+										<select name="country" class="settings__select">
+											<option value="1" selected="selected" class="settings__select-placeholder">Select your country</option>
+											<option value="2">USA</option>
+											<option value="3">Germany</option>
+											<option value="4">Sweden</option>
+										</select>
+									</label>
+									<label>Address line 1<input type="text" name="name"  class="settings__input"></label>
+									<label>Address line 2<input type="text" name="name"  class="settings__input"></label>
+									<label>City<input type="text" name="name"  class="settings__input"></label>
+									<label>State/Province/Region<input type="text" name="name"  class="settings__input"></label>
+									<label>Zip/Postal Code<input type="text" name="name"  class="settings__input"></label>
+	
+									<button type="submit" class="settings__btn">Update</button>
+								</form>
 							</div>
-
-							<div class="contact__column">
-								<div class="contact__title1">
-									Drop Us A Message 
+							
+							<div class="settings__item settings__item_profile">
+								<div class="settings__title">
+									Profile
 								</div>
-
-								<form action="mail.php" method="POST" enctype="multipart/form-data" class="contact__form form-contact">
-									<div class="form-contact__row">
-										<input class="form-contact__name" type="text" name="name" placeholder="Name*" required>
-										<input class="form-contact__email" type="email" name="email" placeholder="E-mail*" required>
-									</div>
-
-									<textarea class="form-contact__message" name="message" placeholder="Message*"></textarea>
-
-									<button class="form-contact__submit" type="submit">Send Message</button>
+								<form action="#" method="POST" class="settings__form settings__form_profile" enctype="multipart/form-data" name="profile">
+	
+									<label>First name<input type="text" name="name"  class="settings__input"></label>
+									<label>Last name<input type="text" name="lastname"  class="settings__input"></label>
+									<label>Company name<input type="text" name="company"  class="settings__input"></label>
+									<label>
+										Country
+										<select name="country" class="settings__select">
+											<option value="1" selected="selected" class="settings__select-placeholder">Select your country</option>
+											<option value="2">USA</option>
+											<option value="3">Germany</option>
+											<option value="4">Sweden</option>
+										</select>
+									</label>
+									<label>Address line 1<input type="text" name="name"  class="settings__input"></label>
+									<label>Address line 2<input type="text" name="name"  class="settings__input"></label>
+									<label>City<input type="text" name="name"  class="settings__input"></label>
+									<label>State/Province/Region<input type="text" name="name"  class="settings__input"></label>
+									<label>Zip/Postal Code<input type="text" name="name"  class="settings__input"></label>
+	
+									<button type="submit" class="settings__btn">Update</button>
+								</form>
+							</div>
+	
+							<div class="settings__item settings__item_badges">
+								<div class="settings__title">
+									Badges
+								</div>
+								<form action="#" method="POST" class="settings__form settings__form_badges" enctype="multipart/form-data" name="badges">
+	
+									<label>Profession<input type="text" name="profession" class="settings__input"></label>
+									<label>
+										Job
+										<select name="country" class="settings__select">
+											<option value="1" selected="selected" class="settings__select-placeholder">Select your job</option>
+											<option value="2">Worker</option>
+											<option value="3">Employer</option>
+											<option value="4">Businessman</option>
+										</select>
+									</label>
+									<label>Address line<input type="text" name="name"  class="settings__input"></label>
+									<label>City<input type="text" name="name"  class="settings__input"></label>
+	
+									<button type="submit" class="settings__btn">Subit</button>
+								</form>
+							</div>
+							
+							<div class="settings__item settings__item_email">
+								<div class="settings__title">
+									E-mail Settings
+								</div>
+								<form action="#" method="POST" class="settings__form settings__form_email" enctype="multipart/form-data" name="email">
+	
+									<label>First name<input type="text" name="name"  class="settings__input"></label>
+									<label>Last name<input type="text" name="lastname"  class="settings__input"></label>
+									<label>Company name<input type="text" name="company"  class="settings__input"></label>
+									<label>
+										Country
+										<select name="country" class="settings__select">
+											<option value="1" selected="selected" class="settings__select-placeholder">Select your country</option>
+											<option value="2">USA</option>
+											<option value="3">Germany</option>
+											<option value="4">Sweden</option>
+										</select>
+									</label>
+									<label>Address line 1<input type="text" name="name"  class="settings__input"></label>
+									<label>Address line 2<input type="text" name="name"  class="settings__input"></label>
+									<label>City<input type="text" name="name"  class="settings__input"></label>
+									<label>State/Province/Region<input type="text" name="name"  class="settings__input"></label>
+									<label>Zip/Postal Code<input type="text" name="name"  class="settings__input"></label>
+	
+									<button type="submit" class="settings__btn">Update</button>
+								</form>
+							</div>
+	
+							<div class="settings__item settings__item_social">
+								<div class="settings__title">
+									Social Network
+								</div>
+								<form action="#" method="POST" class="settings__form settings__form_social" enctype="multipart/form-data" name="social">
+	
+									<label>Profession<input type="text" name="profession"  class="settings__input"></label>
+									<label>
+										Job
+										<select name="country" class="settings__select">
+											<option value="1" selected="selected" class="settings__select-placeholder">Select your job</option>
+											<option value="2">Worker</option>
+											<option value="3">Employer</option>
+											<option value="4">Businessman</option>
+										</select>
+									</label>
+									<label>Address line<input type="text" name="name"  class="settings__input"></label>
+									<label>City<input type="text" name="name"  class="settings__input"></label>
+	
+									<button type="submit" class="settings__btn">Subit</button>
 								</form>
 							</div>
 						</div>
 					</div>
+	
+					
 				</div>
+				
 			</section>
 		</div>
 
@@ -309,8 +396,7 @@
 							About our company
 						</div>
 						<div class="item-footer__text">
-							Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digni Suspen disse.Fusce sit
-							amet
+							Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digni Suspen disse.Fusce sit amet
 							urna iat. Praesent vel rutrum purus.
 						</div>
 						<a href="#" class="item-footer__address">

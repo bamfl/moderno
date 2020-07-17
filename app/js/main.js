@@ -70,7 +70,7 @@ $(function(){
 	})
 
 
-
+	//product-datails
 	$('.tab__title_1').on('click', function(){
 		$('.tab__title_1').toggleClass('active'),
 		$('.tab__inner_1').toggleClass('active'),
@@ -95,6 +95,41 @@ $(function(){
 		$('.tab__title_1,.tab__title_2,.tab__title_3').removeClass('active'),
 		$('.tab__inner_1,.tab__inner_2,.tab__inner_3').removeClass('active')
 	})
+
+
+	//settings
+	$('.settings__tab_info').on('click', function(){
+		$('.settings__tab_info').toggleClass('active'),
+		$('.settings__item_info').toggleClass('active'),
+		$('.settings__tab_profile, .settings__tab_badges, .settings__tab_email, .settings__tab_social').removeClass('active'),
+		$('.settings__item_profile, .settings__item_badges, .settings__item_email, .settings__item_social').removeClass('active')
+	})
+	$('.settings__tab_profile').on('click', function(){
+		$('.settings__tab_profile').toggleClass('active'),
+		$('.settings__item_profile').toggleClass('active'),
+		$('.settings__tab_info, .settings__tab_badges, .settings__tab_email, .settings__tab_social').removeClass('active'),
+		$('.settings__item_info, .settings__item_badges, .settings__item_email, .settings__item_social').removeClass('active')
+	})
+	$('.settings__tab_badges').on('click', function(){
+		$('.settings__tab_badges').toggleClass('active'),
+		$('.settings__item_badges').toggleClass('active'),
+		$('.settings__tab_profile, .settings__tab_info, .settings__tab_email, .settings__tab_social').removeClass('active'),
+		$('.settings__item_profile, .settings__item_info, .settings__item_email, .settings__item_social').removeClass('active')
+	})
+	$('.settings__tab_email').on('click', function(){
+		$('.settings__tab_email').toggleClass('active'),
+		$('.settings__item_email').toggleClass('active'),
+		$('.settings__tab_profile, .settings__tab_badges, .settings__tab_info, .settings__tab_social').removeClass('active'),
+		$('.settings__item_profile, .settings__item_badges, .settings__item_info, .settings__item_social').removeClass('active')
+	})
+	$('.settings__tab_social').on('click', function(){
+		$('.settings__tab_social').toggleClass('active'),
+		$('.settings__item_social').toggleClass('active'),
+		$('.settings__tab_profile, .settings__tab_badges, .settings__tab_info, .settings__tab_email').removeClass('active'),
+		$('.settings__item_profile, .settings__item_badges, .settings__item_info, .settings__item_email').removeClass('active')
+	})
+
+	
 	
 	var mixer = mixitup('.products__box');	
 

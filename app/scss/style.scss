@@ -215,7 +215,7 @@
 			.menu-user {
 				height: auto;
 				padding: 25px 20px;
-				border-top: 1px solid #e7ecf2;
+				border: 1px solid #e7ecf2;
 				&__list {
 					li {
 						margin: 0px 0px 10px 0px;
@@ -2542,6 +2542,147 @@
 		text-align: center;
 		color: #fff;
 		padding: 18px 35px;
+	}
+}
+
+//==============================================================================================================================================================================
+
+.settings {
+	margin: 0px 0px 140px 0px;
+
+	&__inner {	
+		display: flex;
+	}
+
+	&__tabs {
+		flex: 0 0 270px;
+		margin: 0px 30px 0px 0px;
+		
+	}
+
+	&__tab {
+		font-size: 14px;
+		color: #37474f;
+		font-weight: 500;
+		padding: 15px 50px;
+		background-color: #fff;	
+		border: 1px solid #dedede;
+		cursor: pointer;
+
+		& + .settings__tab {
+			border-top: none;
+		}
+
+		position: relative;
+
+		&::before {
+			content: "\f105";
+			font-family: "icomoon";
+			color: #444444;
+			font-size: 18px;
+			position: absolute;
+			left: 25px;
+			top: 12px;
+		}
+
+		&.active{
+			border-bottom: 3px solid $green;
+			&::before {
+				color: $green;
+			}
+		}
+	}
+
+	&__box {
+		flex: 1 1 auto;
+		
+	}
+
+	&__item {
+		background-color: #fff;
+		border: 1px solid #dedede;
+		display: none;
+		&.active{
+			display: block;			
+		}
+
+		&_info {
+		}
+
+		&_badges {
+		}
+
+		&_email {
+		}
+
+		&_social {
+		}
+	}
+
+	&__title {
+		font-weight: 500;
+		font-size: 24px;
+		color: #444;
+		background-color: #fff;
+		padding: 20px 30px;
+		border-bottom: 1px solid #dedede;
+	}
+
+	&__form {
+		padding: 30px 35px 80px;
+
+		label {
+			display: flex;
+			justify-content: space-between;
+			font-family: "Roboto-Regular", sans-serif;
+			color: #707070;
+			align-items: center;
+		}
+
+		&_info {
+		}
+
+		&_badges {
+		}
+
+		&_email {
+		}
+
+		&_social {
+		}
+	}
+
+	&__input {
+		background-color: #f9f9f9;
+		display: block;
+		width: 540px;
+		border: 1px solid #dedede;
+		padding: 10px;
+		margin: 10px 0px;
+	}
+
+	&__select {
+		border: 1px solid #dedede;
+		background-color: #f9f9f9;
+		display: block;
+		width: 100%;
+		width: 540px;
+		padding: 10px;
+		margin: 10px 0px;
+	}
+
+	select {
+		font-family: "Roboto-Regular", sans-serif;
+		color: #707070;
+	}
+
+	&__btn {
+		display: inline-block;
+		margin: 10px 0px 0px 260px;
+		text-align: center;
+		background-color: $green;
+		color: #fff;
+		padding: 15px 30px;
 	}
 }
 
