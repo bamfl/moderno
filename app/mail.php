@@ -24,10 +24,10 @@
 	//Отправка на почту
 
 	if (mail("petukhovrabota@mail.ru",
-				"Новое письмо с сайта One Prime",
+				"Новое письмо с сайта Moderno",
 				"Имя: ".$name."\n".
-				"Имя: ".$email."\n".
-				"Имя: ".$message,
+				"E-mail: ".$email."\n".
+				"Сообщение: ".$message,
 				"From: no-reply@mydomain.ru \r\n")
 
 	) {
