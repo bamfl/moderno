@@ -185,9 +185,7 @@
 		transform: translateX(470%);
 	}
 
-	
-
-	.header__logo, {
+	.header__logo {
 		transform: scale(0.9);
 	}
 
@@ -198,11 +196,15 @@
 		}
 	}
 
-	.notification__box, .message__box, .basket__box {
+	.notification__box,
+	.message__box,
+	.basket__box {
 		height: 55px;
 	}
 
-	.menu-message, .menu-notification, .menu-basket {
+	.menu-message,
+	.menu-notification,
+	.menu-basket {
 		padding: 0;
 	}
 
@@ -226,7 +228,6 @@
 
 		&__box {
 			margin: 0px 0px 0px 30px;
-
 		}
 	}
 }
@@ -373,7 +374,9 @@
 		}
 	}
 
-	.menu-basket, .menu-message, .menu-notification {
+	.menu-basket,
+	.menu-message,
+	.menu-notification {
 		position: fixed;
 		right: 0;
 		top: 150px;
@@ -381,18 +384,17 @@
 		overflow: auto;
 	}
 
-	.menu-user {	
+	.menu-user {
 		&__list {
 			.logout-list {
 				display: block;
-				
+
 				a {
 					color: $red;
 					font-size: 15px;
 					text-transform: uppercase;
 					font-weight: 700;
 				}
-				
 			}
 		}
 	}

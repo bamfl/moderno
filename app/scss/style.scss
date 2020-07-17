@@ -2383,6 +2383,167 @@
 	}
 }
 
+//==============================================================================================================================================================================
+
+.contact {
+	margin: 0px 0px 140px 0px;
+
+	&__title {
+		font-weight: 500;
+		font-size: 24px;
+		color: #444;
+		background-color: #fff;
+		padding: 20px 30px;
+		border: 1px solid #dedede;
+	}
+
+	&__title1 {
+		font-weight: 500;
+		font-size: 24px;
+		color: #444;
+		background-color: #fff;
+		margin: 0px 0px 30px 0px;
+		
+	}
+
+	&__inner {
+		padding: 30px 30px;
+		background-color: #fff;
+		border: 1px solid #dedede;
+		border-top: none;
+	}
+
+	&__map {
+		margin-bottom: 35px;
+
+		iframe {
+			width: 100%;
+			height: 415px;
+		}
+	}
+
+	&__row {
+		display: flex;
+	}
+
+	&__column {
+		flex: 1 1 auto;
+
+		&_min {
+			flex: 0 0 320px;
+			margin: 0px 40px 0px 0px;
+			padding: 0px 0px 0px 35px;
+		}
+	}
+
+	&__address {
+		margin: 0px 0px 30px 0px;
+	}
+
+	&__subtitle {
+		font-weight: 500;
+		color: $bg;
+		font-size: 20px;
+		display: block;
+		padding: 0px 0px 15px 0px;
+		position: relative;
+		margin: 0px 0px 20px 0px;
+
+		&::before {
+			content: "\f041";
+			font-family: "icomoon";
+			color: $green;
+			font-size: 18px;
+			position: absolute;
+			left: -30px;
+			top: 0px;
+		}
+
+		&::after {
+			content:'';
+			position: absolute;
+			height: 2px;
+			width: 40px;
+			background-color: $green;
+			bottom: 0;
+			left: 0px;
+		}
+
+		&_phone {
+			&::before {
+				content: "\f095";
+			}
+		}
+	}
+
+	&__link {
+		font-family: "Roboto-Regular", sans-serif;
+		color: #707070;
+	}
+
+	&__phone {
+		margin: 0px 0px 30px 0px;
+	}
+
+	&__form {
+	}
+
+}
+.form-contact {
+	
+	&__row {
+		display: flex;
+		margin: 0px 0px 30px 0px;
+	}
+
+	&__name {
+		background-color: #f1f4f5;
+		display: block;
+		width: 100%;
+		margin: 0px 15px 0px 0px;
+		padding: 10px 0 10px 20px;
+		&::placeholder {
+			font-family: "Roboto-Regular", sans-serif;
+			color: #7a7a7a;
+		}
+	}
+
+	&__email {
+		background-color: #f1f4f5;
+		display: block;
+		width: 100%;
+		margin: 0px 0px 0px 15px;
+		padding: 10px 0 10px 20px;
+		&::placeholder {
+			font-family: "Roboto-Regular", sans-serif;
+			color: #7a7a7a;
+		}
+	}
+
+	&__message {
+		background-color: #f1f4f5;
+		display: block;
+		width: 100%;
+		padding: 10px 0 0px 20px;
+		height: 190px;
+		width: 100%;
+		resize: none;
+		margin: 0px 0px 30px 0px;
+		&::placeholder {
+			font-family: "Roboto-Regular", sans-serif;
+			color: #7a7a7a;
+		}
+	}
+
+	&__submit {
+		background-color: $green;
+		font-weight: 700;
+		font-size: 16px;
+		text-align: center;
+		color: #fff;
+		padding: 18px 35px;
+	}
+}
 
 //==============================================================================================================================================================================
 @import "_media";
