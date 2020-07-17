@@ -129,8 +129,7 @@ $(function () {
 	// 	$('.settings__item_profile, .settings__item_badges, .settings__item_info, .settings__item_email').removeClass('active')
 	// });
 
-	//Табы
-	
+	//Табы	
 	$(".tab").click(function () {
 		$(".tab").removeClass("active").eq($(this).index()).addClass("active");
 		$(".tabitem").removeClass("active").eq($(this).index()).addClass("active");
