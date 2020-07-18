@@ -2686,5 +2686,360 @@
 	}
 }
 
+//=============================================================================================================================================================================================
+
+.profile {
+	margin: 0px 0px 140px 0px;
+
+	&__row {
+		display: flex;
+	}
+
+	&__aside {
+		flex: 0 0 270px;
+		margin: 0px 30px 0px 0px;
+	}
+
+	&__content {
+		flex: 1 1 auto;
+	}
+
+	&__inner {
+		.settings {
+	
+			&__inner {
+			}
+		
+			&__tabs {
+				
+			}
+		
+			&__tab {
+				position: relative;
+
+				&::before {
+					content: "\f007";
+					font-family: "icomoon";
+					color: #444444;
+					font-size: 18px;
+					position: absolute;
+					left: 25px;
+					top: 12px;
+				}
+
+				&.active{
+					&::before {
+						color: $green;
+					}
+				}
+				
+				&_about {
+					
+				}
+	
+				&_products {
+					&::before {
+						content: "\f0f2";
+					}
+				}
+	
+				&_message {
+					&::before {
+						content: "\f003";
+					}
+				}
+	
+				&_reviews {
+					&::before {
+						content: "\f0e6";
+					}
+				}
+	
+				&_followers {
+					&::before {
+						content: "\f0c0";
+					}
+				}
+			}
+		
+			&__tabitems {
+				padding: 40px 50px;
+				background-color: #fff;
+				border: 1px solid #dedede;
+			}
+		
+			&__tabitem {
+				border: none;
+			}
+		
+			&__title {
+				font-size: 20px;
+				padding: 0;
+				border: none;
+				font-weight: 700;
+				margin: 0px 0px 20px 0px;
+			}
+
+			&__subtitle {
+				font-weight: 500;
+				color: $bg;
+				font-style: italic;
+				font-size: 16px;
+				margin: 0px 0px 10px 0px;
+				display: flex;
+				justify-content: space-between;
+
+				span {
+					font-weight: 700;
+					font-style: normal;
+				}
+			}
+
+			&__text {
+				color: #707070;
+				margin: 0px 0px 40px 0px;
+			}
+
+			&__skill {
+				background-color: #f4f4f4;
+				height: 14px;
+				border-radius: 5px;
+				margin: 0px 0px 20px 0px;
+
+				span {
+					background: url('../images/skills_bg.PNG') 0 0;
+					display: block;
+					width: 80%;
+					height: 100%;
+					border-radius: 5px;
+				}
+
+				&_design {
+					span {
+						width: 80%;
+					}
+					
+				}
+				&_wp {
+					span {
+						width: 90%;
+					}
+
+				}
+				&_joomla {
+					span {
+						width: 70%;
+					}
+					margin: 0;
+				}
+			
+				
+			}
+		}
+	}
+}
+
+.aside-profile {
+
+	&__item {
+	}
+
+	&__socials {
+		
+	}
+
+	&__btn {
+	}
+
+	.aside-details {
+
+		&__item {
+			padding: 40px 30px;
+		}
+	
+		&__title {
+		}
+	
+		&__inner {
+		}
+	
+		&__avatar {
+		}
+	
+		&__info {
+		}
+	
+		&__name {
+		}
+	
+		&__view {
+		}
+	
+		&__profile {
+			position: relative;
+			padding: 5px 5px 5px 20px;
+			&::before {
+				content:'';
+				position: absolute;
+				width: 10px;
+				height: 10px;
+				background-color: $green;
+				border-radius: 50%;
+				top: 50%;
+				left: 5px;
+				transform: translateY(-50%);
+			}
+		}
+	
+		&__achievements {
+		}
+	
+		&__logo {
+	
+			&_smile {
+			}
+	
+			&_tree {
+			}
+	
+			&_flash {
+			}
+	
+			&_f {
+			}
+	
+			&_y {
+			}
+		}
+	}
+
+	.content-details {
+		
+
+		&__socials {
+			height: 30px;
+			margin: 0px 0px 30px 0px;
+		}
+	
+		&__icon {
+			display: inline-block;
+			height: 100%;
+			width: 30px;
+			position: relative;
+	
+			&::before {
+				content: "\f09a";
+				font-family: "icomoon" !important;
+				position: absolute;
+				font-size: 18px;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				color: #fff;
+			}
+	
+			&_fb {
+				background-color: #6370b6;
+				
+			}
+			&_tw {
+				background-color: #64b5f6;
+				&::before {
+					content: "\f099";
+				}
+			}
+			&_in {
+				background-color: #4f71ce;
+				&::before {
+					content: "\f08c";
+				}
+			}
+			&_p {
+				background-color: #d32f2f;
+				&::before {
+					content: "\f231";
+				}
+			}
+		}
+	
+		&__btn {
+			display: inline-block;
+			width: 100%;
+			margin: 0;
+			text-align: center;
+	
+			&_screenshots {
+				margin: 0px 0px 15px 0px;
+				position: relative;
+	
+				&::before {
+					content: "\f003";
+					font-family: "icomoon" !important;
+					position: absolute;
+					font-size: 15px;
+					left: 60px;
+					top: 12px;
+					color: #fff;
+				}
+			}
+	
+			&_documentation {
+			}
+		}
+	
+		&__image {
+		}
+	}
+}
+
+
+.content-profile {
+
+	&__image {
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	&__row {
+		display: flex;
+		background-color: #fff;
+		border: 1px solid #dedede;
+		margin: 0px 0px 30px 0px;
+		
+	}
+
+	&__column {
+		flex: 0 0 25%;
+		text-align: center;
+		padding: 18px 0px;
+		& + & {
+			border-left: 1px solid #dedede;
+		}
+	}
+
+	&__title {
+		color: $bg;
+		font-weight: 500;
+		font-size: 14px;
+	}
+
+	&__text {
+		font-family: "Roboto-Regular", sans-serif;
+		color: #707070;
+	}
+
+	.item-products {
+
+		&__star {
+		}
+	
+		&__rate-star {
+		}
+	}
+}
+
+
 //==============================================================================================================================================================================
 @import "_media";
