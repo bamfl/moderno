@@ -2816,19 +2816,19 @@
 
 				&_design {
 					span {
-						width: 80%;
+						
 					}
 					
 				}
 				&_wp {
 					span {
-						width: 90%;
+						
 					}
 
 				}
 				&_joomla {
 					span {
-						width: 70%;
+						
 					}
 					margin: 0;
 				}
@@ -3036,6 +3036,89 @@
 		}
 	
 		&__rate-star {
+		}
+	}
+}
+
+//==============================================================================================================================================================================
+
+.upload {
+	margin: 0px 0px 140px 0px;
+
+	&__tabitems {
+	}
+
+	&__tabitem {
+	}
+
+	&__title {
+	}
+
+	&__title1 {
+		margin: 40px -35px;
+	}
+
+	.settings {
+
+		&__tabitems {
+		}
+	
+		&__tabitem {
+		}
+	
+		&__title {
+		}
+	
+		&__form {
+	
+			&_info {
+			}
+
+			label {
+				color: #444444;
+				font-family: "Roboto-Regular", sans-serif;	
+
+				span {
+					position: relative;
+
+					&::before {
+						content:'*';
+						position: absolute;
+						left: 103%;
+						top: -5px;
+						color: $green;
+					}
+				}	
+			}
+		}
+
+		
+	
+		&__select {
+			width: 890px;
+			color: #444444;
+		}
+	
+		&__select-placeholder {
+		}
+	
+		&__input {
+			width: 890px;
+		}
+
+		&__textarea {
+			border: 1px solid #dedede;
+			width: 890px;
+			background-color: #f9f9f9;
+			display: block;
+			border: 1px solid #dedede;
+			padding: 10px;
+			margin: 10px 0px;
+			resize: none;
+			height: 150px;
+		}
+	
+		&__btn {
 		}
 	}
 }
