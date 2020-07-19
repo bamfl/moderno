@@ -256,10 +256,10 @@
 											<option value="4">Joomla</option>
 										</select>
 									</label>
-									<label><span>Product name</span><input type="text" name="productname" class="settings__input" placeholder="Enter your product name here ..."></label>
-									<label><span>Product Description</span><textarea name="description" class="settings__textarea" placeholder="Type your text here"></textarea></label>
-									<label><span>Upload Main File</span><input type="file" name="file" class="settings__input" placeholder="No File Choosen"></label>
-									<label><span>Upload Screenshots</span><input type="file" name="screenshots" class="settings__input" placeholder="No File Choosen"></label>
+									<label><span>Product name</span><input type="text" name="productname" class="settings__input" placeholder="Enter your product name here ..." required></label>
+									<label><span>Product Description</span><textarea name="description" class="settings__textarea" placeholder="Type your text here" required></textarea></label>
+									<label><span>Upload Main File</span><input type="file" name="file" class="settings__file" data-placeholder="Choose file" data-browse="No File Choosen"></label>
+									<label><span>Upload Screenshots</span><input type="file" name="screenshots" class="settings__file" data-placeholder="Choose file" data-browse="No File Choosen"></label>
 									<label>
 										<span>File Included</span>
 										<select name="categories" class="settings__select">
@@ -269,15 +269,15 @@
 											<option value="4">EXE</option>
 										</select>
 									</label>
-									<label><span>File Dimensions</span><input type="file" name="file" class="settings__input" placeholder="Enter the item  dimentionss here ..."></label>
-									<label><span>Item Tags</span><input type="file" name="tags" class="settings__input" placeholder="Enter Tag Here"></label>
+									<label><span>File Dimensions</span><input type="file" name="file" class="settings__file" placeholder="Enter the item  dimentionss here ..." required data-placeholder="Choose file" data-browse="No File Choosen"></label>
+									<label><span>Item Tags</span><input type="file" name="tags" class="settings__file" placeholder="Enter Tag Here" required data-placeholder="Choose file" data-browse="No File Choosen"></label>
 
 									<div class="upload__title1 settings__title">
 										Set Your Price (US$)
 									</div>
 
-									<label><span>Regular License</span><input type="text" name="license" class="settings__input" placeholder="$00.00"></label>
-									<label><span>Item Tags</span><input type="text" name="tags" class="settings__input" placeholder="$00.00"></label>
+									<label><span>Regular License</span><input type="number" name="license" class="settings__price" placeholder="$00.00" required></label>
+									<label><span>Item Tags</span><input type="number" name="tags" class="settings__price" placeholder="$00.00" required></label>
 
 									<button type="submit" class="settings__btn">Submit</button>
 								</form>

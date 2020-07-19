@@ -136,7 +136,8 @@ $(function () {
 		$(".tabitem").hide().eq($(this).index()).fadeIn()
 	}).eq(0).addClass("active");
 
-
+	//Form Styler
+	$('input, select').styler();
 
 	var mixer = mixitup('.products__box');
 

@@ -692,7 +692,6 @@
 		padding: 15px 0px 15px 70px;
 		color: #fff;
 		position: relative;
-		
 
 		&::before {
 			content: "\f044";
@@ -714,10 +713,10 @@
 		color: #fff;
 	}
 
-	.fancybox-button{
+	.fancybox-button {
 		color: #fff;
 		right: 10px;
-		
+
 		&::before {
 			content: "\f00d";
 			font-family: "icomoon";
@@ -1887,7 +1886,6 @@
 
 		&_fb {
 			background-color: #6370b6;
-			
 		}
 		&_tw {
 			background-color: #64b5f6;
@@ -1917,15 +1915,13 @@
 	}
 }
 .tab {
-
-
 	&__row {
 		display: flex;
 		position: relative;
 	}
 
 	&__body {
-		flex: 0 1 25%;		
+		flex: 0 1 25%;
 	}
 
 	&__title {
@@ -1943,12 +1939,12 @@
 		margin: 0px 0px 315px 0px;
 
 		&.tab__title_1 {
-			border-left: 1px solid #dedede;;
+			border-left: 1px solid #dedede;
 		}
 
-		&.active{
+		&.active {
 			border-bottom: 3px solid $green;
-		}	
+		}
 	}
 
 	&__inner {
@@ -1963,7 +1959,7 @@
 		border: 1px solid #dedede;
 		display: none;
 
-		&.active{
+		&.active {
 			display: flex;
 			margin: 0px -20px;
 		}
@@ -1999,7 +1995,6 @@
 }
 
 .more {
-
 	&__title {
 		background-color: #fff;
 		font-weight: 500;
@@ -2057,13 +2052,10 @@
 		font-weight: 700;
 		font-size: 18px;
 		color: $bg;
-
 	}
-	
 }
 
 .aside-details {
-
 	&__item {
 		padding: 20px 30px;
 		background-color: #fff;
@@ -2090,7 +2082,7 @@
 	&__price {
 		font-size: 22px;
 		font-weight: 500;
-		color: $red;	
+		color: $red;
 	}
 
 	&__menu {
@@ -2100,7 +2092,7 @@
 	&__select {
 		font-size: 13px;
 		color: #70838d;
-		padding: 0px 0px 0px 8px;	
+		padding: 0px 0px 0px 8px;
 	}
 
 	&__buttons {
@@ -2197,11 +2189,10 @@
 			position: absolute;
 			left: 50%;
 			top: 40%;
-			transform: translate(-50%,-50%);
+			transform: translate(-50%, -50%);
 		}
 
 		&_smile {
-			
 		}
 
 		&_tree {
@@ -2268,13 +2259,11 @@
 			}
 		}
 	}
-
 }
 
 //==============================================================================================================================================================================
 
 .page-404 {
-
 	&__title {
 		font-weight: 500;
 		font-size: 24px;
@@ -2300,7 +2289,7 @@
 	}
 
 	&__number {
-		font-family: 'Open Sans', sans-serif;
+		font-family: "Open Sans", sans-serif;
 		font-weight: 800;
 		font-size: 300px;
 		line-height: 300px;
@@ -2312,7 +2301,7 @@
 	}
 
 	&__subtitle {
-		font-family: 'Open Sans', sans-serif;
+		font-family: "Open Sans", sans-serif;
 		font-weight: 400;
 		font-size: 30px;
 		line-height: 30px;
@@ -2321,7 +2310,7 @@
 	}
 
 	&__text {
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		font-weight: 500;
 		font-size: 18px;
 		max-width: 550px;
@@ -2329,7 +2318,7 @@
 	}
 
 	&__btn {
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		font-weight: 700;
 		font-size: 13px;
 		line-height: 13px;
@@ -2342,7 +2331,6 @@
 }
 //==============================================================================================================================================================================
 .about {
-
 	&__title {
 		font-weight: 500;
 		font-size: 24px;
@@ -2359,7 +2347,6 @@
 		background-color: #fff;
 		margin: 0px 0px 140px 0px;
 	}
-	
 
 	&__box {
 		background-color: #fff;
@@ -2370,13 +2357,12 @@
 			margin: 0;
 		}
 	}
-		
 
 	&__subtitle {
 		font-weight: 700;
 		font-size: 20px;
 		color: #444;
-		margin: 0px 0px 15px 0px;		
+		margin: 0px 0px 15px 0px;
 	}
 
 	&__text {
@@ -2403,7 +2389,6 @@
 		color: #444;
 		background-color: #fff;
 		margin: 0px 0px 30px 0px;
-		
 	}
 
 	&__inner {
@@ -2460,7 +2445,7 @@
 		}
 
 		&::after {
-			content:'';
+			content: "";
 			position: absolute;
 			height: 2px;
 			width: 40px;
@@ -2487,10 +2472,8 @@
 
 	&__form {
 	}
-
 }
 .form-contact {
-	
 	&__row {
 		display: flex;
 		margin: 0px 0px 30px 0px;
@@ -2550,14 +2533,13 @@
 .settings {
 	margin: 0px 0px 140px 0px;
 
-	&__inner {	
+	&__inner {
 		display: flex;
 	}
 
 	&__tabs {
 		flex: 0 0 270px;
 		margin: 0px 30px 0px 0px;
-		
 	}
 
 	&__tab {
@@ -2565,7 +2547,7 @@
 		color: #37474f;
 		font-weight: 500;
 		padding: 15px 50px;
-		background-color: #fff;	
+		background-color: #fff;
 		border: 1px solid #dedede;
 		cursor: pointer;
 
@@ -2585,7 +2567,7 @@
 			top: 12px;
 		}
 
-		&.active{
+		&.active {
 			border-bottom: 3px solid $green;
 			&::before {
 				color: $green;
@@ -2595,15 +2577,14 @@
 
 	&__tabitems {
 		flex: 1 1 auto;
-		
 	}
 
 	&__tabitem {
 		background-color: #fff;
 		border: 1px solid #dedede;
 		display: none;
-		&.active{
-			display: block;			
+		&.active {
+			display: block;
 		}
 
 		&_info {
@@ -2706,14 +2687,12 @@
 
 	&__inner {
 		.settings {
-	
 			&__inner {
 			}
-		
+
 			&__tabs {
-				
 			}
-		
+
 			&__tab {
 				position: relative;
 
@@ -2727,51 +2706,50 @@
 					top: 12px;
 				}
 
-				&.active{
+				&.active {
 					&::before {
 						color: $green;
 					}
 				}
-				
+
 				&_about {
-					
 				}
-	
+
 				&_products {
 					&::before {
 						content: "\f0f2";
 					}
 				}
-	
+
 				&_message {
 					&::before {
 						content: "\f003";
 					}
 				}
-	
+
 				&_reviews {
 					&::before {
 						content: "\f0e6";
 					}
 				}
-	
+
 				&_followers {
 					&::before {
 						content: "\f0c0";
 					}
 				}
 			}
-		
+
 			&__tabitems {
 				padding: 40px 50px;
 				background-color: #fff;
 				border: 1px solid #dedede;
 			}
-		
+
 			&__tabitem {
 				border: none;
 			}
-		
+
 			&__title {
 				font-size: 20px;
 				padding: 0;
@@ -2807,7 +2785,7 @@
 				margin: 0px 0px 20px 0px;
 
 				span {
-					background: url('../images/skills_bg.PNG') 0 0;
+					background: url("../images/skills_bg.PNG") 0 0;
 					display: block;
 					width: 80%;
 					height: 100%;
@@ -2816,70 +2794,60 @@
 
 				&_design {
 					span {
-						
 					}
-					
 				}
 				&_wp {
 					span {
-						
 					}
-
 				}
 				&_joomla {
 					span {
-						
 					}
 					margin: 0;
 				}
-			
-				
 			}
 		}
 	}
 }
 
 .aside-profile {
-
 	&__item {
 	}
 
 	&__socials {
-		
 	}
 
 	&__btn {
 	}
 
 	.aside-details {
-
 		&__item {
 			padding: 40px 30px;
 		}
-	
+
 		&__title {
 		}
-	
+
 		&__inner {
 		}
-	
+
 		&__avatar {
 		}
-	
+
 		&__info {
 		}
-	
+
 		&__name {
 		}
-	
+
 		&__view {
 		}
-	
+
 		&__profile {
 			position: relative;
 			padding: 5px 5px 5px 20px;
 			&::before {
-				content:'';
+				content: "";
 				position: absolute;
 				width: 10px;
 				height: 10px;
@@ -2890,43 +2858,40 @@
 				transform: translateY(-50%);
 			}
 		}
-	
+
 		&__achievements {
 		}
-	
+
 		&__logo {
-	
 			&_smile {
 			}
-	
+
 			&_tree {
 			}
-	
+
 			&_flash {
 			}
-	
+
 			&_f {
 			}
-	
+
 			&_y {
 			}
 		}
 	}
 
 	.content-details {
-		
-
 		&__socials {
 			height: 30px;
 			margin: 0px 0px 30px 0px;
 		}
-	
+
 		&__icon {
 			display: inline-block;
 			height: 100%;
 			width: 30px;
 			position: relative;
-	
+
 			&::before {
 				content: "\f09a";
 				font-family: "icomoon" !important;
@@ -2937,10 +2902,9 @@
 				transform: translate(-50%, -50%);
 				color: #fff;
 			}
-	
+
 			&_fb {
 				background-color: #6370b6;
-				
 			}
 			&_tw {
 				background-color: #64b5f6;
@@ -2961,17 +2925,17 @@
 				}
 			}
 		}
-	
+
 		&__btn {
 			display: inline-block;
 			width: 100%;
 			margin: 0;
 			text-align: center;
-	
+
 			&_screenshots {
 				margin: 0px 0px 15px 0px;
 				position: relative;
-	
+
 				&::before {
 					content: "\f003";
 					font-family: "icomoon" !important;
@@ -2982,19 +2946,17 @@
 					color: #fff;
 				}
 			}
-	
+
 			&_documentation {
 			}
 		}
-	
+
 		&__image {
 		}
 	}
 }
 
-
 .content-profile {
-
 	&__image {
 		img {
 			max-width: 100%;
@@ -3007,7 +2969,6 @@
 		background-color: #fff;
 		border: 1px solid #dedede;
 		margin: 0px 0px 30px 0px;
-		
 	}
 
 	&__column {
@@ -3031,10 +2992,9 @@
 	}
 
 	.item-products {
-
 		&__star {
 		}
-	
+
 		&__rate-star {
 		}
 	}
@@ -3059,51 +3019,111 @@
 	}
 
 	.settings {
-
 		&__tabitems {
 		}
-	
+
 		&__tabitem {
 		}
-	
+
 		&__title {
 		}
-	
+
 		&__form {
-	
 			&_info {
 			}
 
 			label {
 				color: #444444;
-				font-family: "Roboto-Regular", sans-serif;	
+				font-family: "Roboto-Regular", sans-serif;
 
 				span {
 					position: relative;
 
 					&::before {
-						content:'*';
+						content: "*";
 						position: absolute;
 						left: 103%;
 						top: -5px;
 						color: $green;
 					}
-				}	
+				}
+
+				margin: 20px 0;
 			}
 		}
 
-		
-	
 		&__select {
 			width: 890px;
 			color: #444444;
+			padding: 0;
+			margin: 0px;
+			cursor: pointer;
+
+			.jq-selectbox__select {
+				display: flex;
+				justify-content: space-between;
+				padding: 8px 10px;
+				width: 100%;
+			}
+			.jq-selectbox__select-text {
+				color: #707070;
+			}
+			.jq-selectbox__trigger-arrow {
+				width: 30px;
+				height: 100%;
+				position: relative;
+
+				&::before {
+					content: "\f0dd";
+					font-family: "icomoon" !important;
+					position: absolute;
+					font-size: 15px;
+					left: 50%;
+					top: 50%;
+					color: $green;
+					transform: translate(-50%, -50%);
+				}
+			}
+			.jq-selectbox__dropdown {
+				width: 100%;
+				background-color: $green;
+				outline: 1px solid #dedede;
+				padding: 10px;
+				color: #fff;
+				ul {
+					li {
+						margin: 0px 0px 10px 0px;
+					}
+				}
+			}
 		}
-	
+
 		&__select-placeholder {
 		}
-	
+
 		&__input {
 			width: 890px;
+			padding: 10px 10px 11px;
+			margin: 0;
+			color: #444444;
+			cursor: pointer;
+		}
+
+		&__file {
+			width: 100%;
+			
+		}
+
+		&__price {
+			width: 890px;
+			background-color: #f9f9f9;
+			
+			.jq-number__field {
+				border: 1px solid #dedede;				
+				display: flex;
+				justify-content: space-between;
+				padding: 10px 10px 11px;
+			}
 		}
 
 		&__textarea {
@@ -3111,19 +3131,43 @@
 			width: 890px;
 			background-color: #f9f9f9;
 			display: block;
-			border: 1px solid #dedede;
-			padding: 10px;
-			margin: 10px 0px;
 			resize: none;
 			height: 150px;
+			padding: 10px;
+			cursor: pointer;
 		}
-	
+
 		&__btn {
 			margin: 30px 0px 0px 208px;
 		}
 	}
-}
 
+	.jq-file {
+		padding: 7px 10px;
+		margin: 0;
+		display: flex;
+		justify-content: flex-start;
+		max-width: 890px;
+		width: 100%;
+		background-color: #f9f9f9;
+		border: 1px solid #dedede;
+		cursor: pointer;
+	}
+
+	.jq-file__name {
+		border: 1px solid #dedede;
+		background-color: $green;
+		padding: 5px 12px;
+		color: #fff;		
+	}
+
+	.jq-file__browse {
+		line-height: 40px;
+		padding: 0px 0px 0px 10px;
+		color: #444444;
+		
+	}
+}
 
 //==============================================================================================================================================================================
 @import "_media";
