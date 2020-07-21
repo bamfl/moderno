@@ -13,9 +13,18 @@ $(function () {
 		dots: true,
 		responsive: [
 			{
-				breakpoint: 767,
+				breakpoint: 1350,
 				settings: {
-
+					slidesToShow: 2,
+					slidesToScroll: 2,
+				}
+			},
+		
+			{
+				breakpoint: 820,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
 				}
 			}
 		]
