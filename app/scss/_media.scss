@@ -370,6 +370,11 @@
 	.filter__view {
 		display: none;
 	}
+
+	
+	.loginform {
+		padding: 90px 20px 110px;
+	}
 }
 
 @media (max-width: 640px) {
@@ -734,6 +739,21 @@
 
 	.content-profile__column {
 		flex: 0 1 100%;
+	}
+}
+
+@media (max-width:425px){
+	.loginform__inner {
+		flex-wrap: wrap;
+	}
+
+	.loginform__btn, .loginform__create {
+		min-width: 100%;
+		height: 50px;
+		padding: 0;
+		margin: 0px 0px 20px 0px;
+		text-align: center;
+		line-height: 50px;
 	}
 }
 
