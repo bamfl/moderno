@@ -19,7 +19,7 @@ $(function () {
 					slidesToScroll: 2,
 				}
 			},
-		
+
 			{
 				breakpoint: 820,
 				settings: {
@@ -147,6 +147,17 @@ $(function () {
 
 	//Form Styler
 	$('input, select').styler();
+
+	wow = new WOW(
+		{
+			boxClass: 'wow',
+			animateClass: 'animate__animated',
+			offset: 300,
+			mobile: false,
+			live: true
+		}
+	)
+	wow.init();
 
 	var mixer = mixitup('.products__box');
 
